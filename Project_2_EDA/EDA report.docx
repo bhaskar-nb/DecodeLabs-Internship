@@ -1,0 +1,88 @@
+# Exploratory Data Analysis (EDA) Report
+
+## Project 2 – DecodeLabs Data Analytics Internship
+
+### Objective
+
+The objective of this project is to analyze the cleaned orders dataset and extract meaningful business insights using Python, Pandas, and Matplotlib.
+
+## Dataset Overview
+
+* Total Records: 1200
+* Total Columns: 14
+* Missing Values: None
+* Duplicate Records: None
+
+The dataset was successfully cleaned before analysis, ensuring reliable results.
+
+## Business Statistics
+
+* Total Revenue: ₹1,264,761.96
+* Average Order Value: ₹1,053.97
+* Median Order Value: ₹823.62
+* Maximum Order Value: ₹3,456.40
+* Minimum Order Value: ₹11.39
+* Total Quantity Sold: 3,535 units
+
+These statistics provide an overview of the business performance and customer spending behavior.
+
+## Product Analysis
+
+Revenue and quantity sold were analyzed for each product category.
+
+Key findings:
+
+* Chair generated the highest revenue.
+* Printer and Laptop were also among the top-performing products.
+* Phone generated the lowest overall revenue.
+
+The product analysis helps identify which products contribute most to business growth.
+
+## Payment Method Analysis
+
+The distribution of payment methods shows that:
+
+* Online payments are the most commonly used.
+* Cash, Credit Card, Debit Card, and Gift Card are also widely used.
+
+This indicates that customers prefer digital payment methods while maintaining a balanced usage of other options.
+
+## Referral Source Analysis
+
+Customer acquisition sources were analyzed.
+
+Results show that:
+
+* Instagram brings the highest number of customers.
+* Email and Google are also important marketing channels.
+* Referral and Facebook contribute a smaller share.
+
+These insights can help optimize future marketing strategies.
+
+## Monthly Revenue Trend
+
+Monthly revenue was calculated using transaction dates.
+
+The analysis shows fluctuations across different months, with some months generating significantly higher sales than others. This information can be useful for seasonal planning and forecasting.
+
+## Outlier Analysis
+
+A box plot and Interquartile Range (IQR) method were used to detect outliers in TotalPrice.
+
+The analysis helps identify unusually high or low order values that may require further investigation.
+
+## Correlation Analysis
+
+Correlation between Quantity, UnitPrice, ItemsInCart, and TotalPrice was calculated.
+
+The heatmap provides insight into how these numerical variables relate to each other and how they influence overall revenue.
+
+## Order Status Analysis
+
+Orders were grouped by their status to understand operational performance.
+
+This analysis helps monitor delivered, shipped, cancelled, and returned orders, allowing businesses to identify potential issues in order fulfillment.
+
+## Conclusion
+
+The exploratory data analysis successfully transformed raw transactional data into meaningful business insights. Product performance, customer purchasing behavior, payment preferences, referral effectiveness, monthly revenue trends, and correlations between variables were analyzed. These findings can support better business decisions, marketing strategies, and operational improvements.
