@@ -1,118 +1,98 @@
 # DecodeLabs Data Analytics Internship
 
-This repository contains the projects completed during my **DecodeLabs Data Analytics Internship**. The projects focus on data cleaning, exploratory data analysis, SQL-based business analysis, and data visualization using Tableau.
+A practical **data analytics internship portfolio** covering the full workflow from raw data preparation to business reporting: data cleaning, exploratory analysis, SQL analysis, and Tableau dashboard development.
 
-## Projects
+The repository shows how I worked through the same dataset from different analytical angles to move from **raw data → analysis → business insights → visualization**.
 
-### 📊 Project 1 – Data Cleaning
+## Why this project matters
 
-In this project, the raw dataset was cleaned and prepared for analysis.
+The internship projects demonstrate a complete analytics workflow rather than a single dashboard or isolated SQL exercise. Each stage builds on the previous one and shows how technical analysis can answer practical business questions.
 
-**Tasks performed:**
+## Internship Projects
 
-* Checked for missing values
-* Filled missing data in the `CouponCode` column
-* Verified data types
-* Checked for duplicate records
-* Generated a cleaned dataset
+### 1. Data Cleaning
 
-**Tools Used:**
+Prepared the raw dataset for reliable analysis by:
 
-* Python
-* Pandas
-* OpenPyXL
+- Checking and handling missing values
+- Filling missing `CouponCode` values
+- Verifying data types
+- Checking for duplicate records
+- Producing a cleaned dataset for downstream analysis
 
----
+**Tools:** Python · Pandas · OpenPyXL
 
-### 📈 Project 2 – Exploratory Data Analysis (EDA)
+### 2. Exploratory Data Analysis
 
-Performed exploratory analysis on the cleaned dataset to identify patterns and business insights.
+Used exploratory analysis to identify patterns, relationships, trends, and potential data issues.
 
 **Analysis includes:**
 
-* Business statistics
-* Product-wise revenue analysis
-* Payment method analysis
-* Referral source analysis
-* Monthly revenue trends
-* Outlier detection
-* Correlation analysis
-* Order status analysis
+- Business statistics
+- Product-level revenue analysis
+- Payment method analysis
+- Referral source analysis
+- Monthly revenue trends
+- Outlier detection
+- Correlation analysis
+- Order status analysis
 
-**Tools Used:**
+**Tools:** Python · Pandas · Matplotlib
 
-* Python
-* Pandas
-* Matplotlib
+### 3. SQL Business Analysis
 
----
+Loaded the data into SQLite and used SQL to answer common business performance questions, including:
 
-### 🗄️ Project 3 – SQL Analysis
+- Order volume and total revenue
+- Average order value
+- Revenue and quantity by product
+- Payment method usage
+- Referral source performance
+- Monthly revenue trends
+- Order status distribution
+- Coupon usage
 
-Used SQL queries on a SQLite database to analyze sales and customer data.
+**Tools:** SQL · SQLite · DB Browser for SQLite
 
-**Queries performed:**
+### 4. Tableau Sales Dashboard
 
-* Total number of orders
-* Total revenue
-* Average order value
-* Revenue by product
-* Quantity sold by product
-* Payment method analysis
-* Referral source analysis
-* Monthly revenue analysis
-* Order status distribution
-* Coupon usage analysis
+Built an interactive Tableau dashboard to turn the analysis into a visual business report.
 
-**Tools Used:**
+**Dashboard views:**
 
-* SQLite
-* SQL
-* DB Browser for SQLite
+- Revenue by product
+- Monthly revenue trend
+- Order status analysis
+- Payment method analysis
+- Referral source analysis
 
----
+**Key findings:**
 
-### 📊 Project 4 – Tableau Sales Dashboard
+- Chair generated the highest revenue.
+- Online was the most preferred payment method.
+- Instagram generated the highest number of customer referrals.
+- Revenue varied across months.
+- Order-status patterns provided additional operational insight.
 
-Created an interactive Tableau dashboard to visualize sales performance and business trends.
+**Tools:** Tableau · CSV · Python
 
-**Dashboard Components:**
+## Skills Demonstrated
 
-* Revenue by Product
-* Monthly Revenue Trend
-* Order Status Analysis
-* Payment Method Analysis
-* Referral Source Analysis
-
-**Key Insights:**
-
-* Chair generated the highest revenue.
-* Online was the most preferred payment method.
-* Instagram brought the highest number of customer referrals.
-* Revenue trends varied across different months.
-* Order status distribution helped identify operational patterns.
-
-**Tools Used:**
-
-* Tableau
-* CSV Dataset
-* Python (for data preparation)
-
----
+- Data cleaning and preparation
+- Exploratory data analysis
+- SQL business analysis
+- Data visualization
+- KPI and trend analysis
+- Business insight generation
+- Tableau dashboard development
+- End-to-end analytics workflow
 
 ## Technologies
 
-* Python
-* Pandas
-* Matplotlib
-* SQLite
-* SQL
-* Tableau
-* Git
-* GitHub
-* Visual Studio Code
-
----
+- **Python:** Pandas · Matplotlib · OpenPyXL
+- **SQL:** SQLite · DB Browser for SQLite
+- **Visualization:** Tableau
+- **Tools:** Git · GitHub · VS Code
 
 ## Repository Structure
 
@@ -124,8 +104,10 @@ DecodeLabs-Internship/
 └── Project_4_Tableau/
 ```
 
----
+## Scope
+
+This repository documents work completed during the DecodeLabs Data Analytics Internship. The projects are intended to demonstrate practical analytics skills and workflow, not production systems.
 
 ## Author
 
-**Bhaskar Nakka**
+**Bhaskar Nakka** — Data Analyst | SQL · Python · Tableau · Power BI
